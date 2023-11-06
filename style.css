@@ -1,23 +1,33 @@
-* {
+/* * {
     border: 0.1em solid #000
-}
+} */
 
 .discontinuo {
-    
+    border: 0.1em dotted black; 
 }
 
 .rojo {
-
+    background-color: red;
 }
 
 .negro {
-
+    background-color: black;
 }
 
-.texto_blanco {
-
+.texto-blanco {
+    color: white;
 }
 
 .redondo {
+    border-radius: 50%;
+}
 
+.borde-verde {
+    border: 0.1em solid green;
+}
+
+.px50 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
 }
